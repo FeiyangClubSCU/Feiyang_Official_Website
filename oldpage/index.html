@@ -1,0 +1,263 @@
+<!doctype html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>四川大学飞扬俱乐部 | 官方网站</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+            <script src="js/respond.min.js"></script>
+        <![endif]-->
+        <link rel="shortcut icon" href="images/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+        <style>
+        #yf2015-name {
+            color: #fff
+        }
+        #yf2015-title {
+            color:#acaf82;
+        }
+        #yf2015-tags {
+            color:#bd7674;
+        }
+        #yf2015-description {
+            color:#bd7674;
+        }
+        .yf2015-time {
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+        /*
+
+ * Semi-Transparent Fade
+
+ */
+        .ghost-button-semi-transparent {
+            background-color: rgba(255, 255, 255, 0);
+            display: inline-block;
+            width: 200px;
+            padding: 8px;
+            color: #fff;
+            border: 2px solid #fff;
+            text-align: center;
+            outline: none;
+            text-decoration: none;
+            -webkit-transition: background-color 0.2s ease-out, border-color 0.2s ease-out;
+            transition: background-color 0.2s ease-out, border-color 0.2s ease-out;
+        }
+        .ghost-button-semi-transparent:hover, .ghost-button-semi-transparent:active {
+            background-color: #fff;
+            /* fallback */
+            background-color: rgba(255, 255, 255, 0.2);
+            border-color: #fff;
+            /* fallback */
+            border-color: #fff;
+            /*rgba(255, 255, 255, 0.2);*/
+            -webkit-transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
+            transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
+        }
+        </style>
+    </head>
+    <!--/head-->
+    
+    <body>
+        <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span>
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo7.png" alt="logo">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.html">首页</a>
+                        </li>
+                        <li><a href="http://log.fyscu.com/" target="_blank">博客</a>
+                        </li>
+                        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">服务 <i class="fa fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://www.fyscu.com/fix" target="_blank">电脑一键报修</a>
+                                </li>
+                                <li><a href="http://tech.fyscu.com" target="_blank">飞扬维修介绍</a>
+                                </li>
+                                <li><a href="http://b.fyscu.com" target="_blank">小肥羊的论坛</a>
+                                </li>
+                                <li><a href="http://lab.fyscu.com/" target="_blank">飞扬研发中心</a>
+                                </li>
+                                <li><a href="http://log.fyscu.com/" target="_blank">飞扬技术博客</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a target="_blank" href="http://log.fyscu.com/index.php/3.html">关于我们</a>
+                        </li>
+                        <li><a target="_blank" href="http://log.fyscu.com/index.php/12.html">联系我们</a>
+                        </li>
+                        <li><a href="http://weibo.com/u/2386767780" target="_blank" title="四川大学飞扬俱乐部新浪微博"><i class="fa fa-weibo fa-1x"></i></a>
+                        </li>
+                        <li><a id="weixin" href="javascript:void(0)" onmouseover="showEWM()" onmouseout="hideEWM()" title="四川大学飞扬俱乐部"><i class="fa fa-wechat"></i> <div id="EWM"><img src="images/weixin_code2.jpg" /></div></a>
+                        </li>
+                        <li><a href="http://page.renren.com/600452773" target="_blank" title="四川大学飞扬俱乐部人人网公共主页"><i class="fa fa-renren"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!--/header-->
+        <section id="main-slider" class="no-margin slider-font">
+            <div class="bgm_div">
+                <audio id="backgroundMusic" src="music/fy.mp3" autoplay="autoplay" loop="loop"></audio>
+                <a id="backgroundMusic_btn">
+                    <img src="images/music_on.png" id="music_btn" class="music_rotate" border="0">
+                </a>
+            </div>
+            <!--/#backgroundmusic-->
+            <div class="carousel slide wet-asphalt">
+                <ol class="carousel-indicators">
+                    <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <!-- <div class="item active" style="background-color:#00ba9d; background:url('images/bg1.png')"> -->
+                    <div class="item active" style="background-color:#00ba9d; background:url('images/yf2015V7.jpg')">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="carousel-content centered">
+                                        <div style='padding-left:50px'>
+                                             <h2><span id="yf2015-name">Hello</span><span id="yf2015-title">我们可以为你做点什么？</span></h2>
+                                             <h3><span id="yf2015-tags">十五年飞扬·服务于川大</span></h3>
+                                             <h4 class="yf2015-time"></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.item-->
+                </div>
+                <!--/.carousel-inner-->
+            </div>
+            <!--/.carousel-->
+            <a class="prev hidden-xs" href="#main-slider" data-slide="prev"> <i class="fa fa-chevron-left"></i>
+            </a>
+            <a class="next hidden-xs" href="#main-slider" data-slide="next"> <i class="fa fa-chevron-right"></i>
+            </a>
+        </section>
+        <!--/#main-slider-->
+        <section id="services" class="emerald">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="media">
+                            <a href="https://www.fyscu.com/fix" target="_blank">
+                                <div class="pull-left"> <i class="fa fa-laptop icon-md"></i>
+                                </div>
+                                <div class="media-body">
+                                     <h3 class="media-heading">电脑一键报修</h3>
+                                    <p>电脑报修是飞扬俱乐部提供的免费公益电脑维修服务。</p>
+                                    <br>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="media">
+                            <a href="http://tech.fyscu.com" target="_blank">
+                                <div class="pull-left"> <i class="fa fa-user icon-md"></i>
+                                </div>
+                                <div class="media-body">
+                                     <h3 class="media-heading">飞扬维修介绍</h3>
+                                    <p>关于飞扬技术员的信息、工作、生活介绍的专属页面。</p>
+                                    <br>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="media">
+                            <a href="https://b.fyscu.com" target="_blank">
+                                <div class="pull-left"> <i class="fa fa-book icon-md"></i>
+                                </div>
+                                <div class="media-body">
+                                     <h3 class="media-heading">小肥羊的论坛</h3>
+                                    <p>小肥羊们的聚集地，你可以在这儿分享你的生活。</p>
+                                    <br>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="media">
+                            <a href="http://lab.fyscu.com" target="_blank">
+                                <div class="pull-left"> <i class="fa fa-circle-o-notch icon-md"></i>
+                                </div>
+                                <div class="media-body">
+                                     <h3 class="media-heading">飞扬研发中心</h3>
+                                    <p>研发实验室是飞扬俱乐部研发部做的一些实验性产品。</p>
+                                    <br>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="media">
+                            <a href="http://log.fyscu.com" target="_blank">
+                                <div class="pull-left"> <i class="fa fa-paperclip icon-md"></i>
+                                </div>
+                                <div class="media-body">
+                                     <h3 class="media-heading">飞扬技术博客</h3>
+                                    <p>这里是飞扬俱乐部写东西的地方。</p>
+                                    <br>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!--/.col-md-4-->
+                </div>
+            </div>
+        </section>
+        <!--/#services-->
+        <footer id="footer" class="midnight-blue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">&copy; 2018 <a target="_blank" href="http://fyscu.com/" title="四川大学飞扬俱乐部">四川大学飞扬俱乐部</a>. All Rights Reserved.蜀ICP备15004112号-1</div>
+                    <div class="col-sm-6">
+                        <ul class="pull-right">
+                            <li><a href="http://fyscu.com">首页</a>
+                            </li>
+                            <li><a target="_blank" href="http://log.fyscu.com/index.php/3.html">关于我们</a>
+                            </li>
+                            <li><a target="_blank" href="http://log.fyscu.com/index.php/12.html">联系我们</a>
+                            </li>
+                            <li><a id="gototop" class="gototop" href="#"><i class="fa fa-chevron-up"></i></a>
+                            </li>
+                            <!--#gototop-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--/#footer-->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
